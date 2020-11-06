@@ -23,17 +23,17 @@ public class Discord {
             while(!Thread.currentThread().isInterrupted()) {
                 try {
                     rpc.Discord_RunCallbacks();
-                    presence.details = (Minecraft.getMinecraft() + " > rockezhack menu");
-                    presence.state = "rockEZHack b1";
+                    presence.details = ("> menu");
+                    presence.state = "> beta test 0.1";
                         if (Minecraft.getMinecraft().isIntegratedServerRunning()) {
-                            presence.details = (Minecraft.getMinecraft().getSession().getUsername() + " > thank oyzipfile");
-                            presence.state = "Beta 0.1";
+                            presence.details = (Minecraft.getMinecraft().getSession().getUsername() + "> thank oyzipfile");
+                            presence.state = "> Beta test 0.1";
                         } else if (Minecraft.getMinecraft().getCurrentServerData() != null) {
                             sip = Minecraft.getMinecraft().getCurrentServerData();
 
                             if (!sip.serverIP.equals("")) {
-                                presence.details = (Minecraft.getMinecraft().getSession().getUsername() + " > " + sip.serverIP);
-                                presence.state = "Beta 0.1";
+                                presence.details = (Minecraft.getMinecraft().getSession().getUsername() + "> " + sip.serverIP);
+                                presence.state = "> Beta test 0.1";
                             }
                         }
                   /*  switch (Client.settingManager.getSetting("RPC", "State").getEnumValue()) {
