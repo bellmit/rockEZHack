@@ -30,9 +30,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class GameSenseMod{
 
 	public static final String MODID = "gamesense";
-	public static String MODNAME = "GameSense";
+	public static String MODNAME = "rockEZHack";
 	public static final String FORGENAME = "GameSense";
-	public static final String MODVER = "v2.2.1";
+	public static final String MODVER = "b0.1";
 
 	public static final Logger log = LogManager.getLogger(MODNAME);
 

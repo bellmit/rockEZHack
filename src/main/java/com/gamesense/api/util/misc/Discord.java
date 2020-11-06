@@ -11,7 +11,7 @@ import com.gamesense.client.GameSenseMod;
 
 public class Discord {
 
-    private static String discordID = "770790009397313596";
+    private static String discordID = "774257326990950450";
     private static DiscordRichPresence discordRichPresence = new DiscordRichPresence();
     private static DiscordRPC discordRPC = DiscordRPC.INSTANCE;
 
@@ -25,8 +25,8 @@ public class Discord {
 
         discordRichPresence.startTimestamp = System.currentTimeMillis() / 1000L;
         discordRichPresence.details = clientVersion;
-        discordRichPresence.largeImageKey = "logo";
-        discordRichPresence.largeImageText = "discord.gg/xfgPw63";
+        discordRichPresence.largeImageKey = "unnamed";
+        discordRichPresence.largeImageText = "rockEZHack dev UA";
         discordRichPresence.state = null;
         discordRPC.Discord_UpdatePresence(discordRichPresence);
     }
