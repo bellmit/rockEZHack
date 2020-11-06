@@ -11,14 +11,14 @@ public class DiscordRPCModule extends Module {
     }
 
     public void onEnable(){
-        Discord.startRPC();
+        Discord.start();
         if (mc.player != null || mc.world != null){
             MessageBus.sendClientPrefixMessage("Discord RPC started!");
         }
     }
 
     public void onDisable(){
-        Discord.stopRPC();
+        Discord.stop();
         if (mc.player != null || mc.world != null) {
             MessageBus.sendClientPrefixMessage("Discord RPC stopped!");
         }
