@@ -31,6 +31,7 @@ public class GameSenseMod{
 
 	public static final String MODID = "gamesense";
 	public static String MODNAME = "rockEZHack";
+	public static final String RUSHER = "BUY RUSHERHACK WITH rockez PROMO CODE";
 	public static final String FORGENAME = "GameSense";
 	public static final String MODVER = "b0.1";
 

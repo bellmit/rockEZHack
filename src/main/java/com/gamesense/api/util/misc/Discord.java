@@ -26,13 +26,13 @@ public class Discord {
                     presence.details = ("> menu");
                     presence.state = "> beta test 0.1";
                         if (Minecraft.getMinecraft().isIntegratedServerRunning()) {
-                            presence.details = (Minecraft.getMinecraft().getSession().getUsername() + "> thank oyzipfile");
+                            presence.details = ("> thank oyzipfile");
                             presence.state = "> Beta test 0.1";
                         } else if (Minecraft.getMinecraft().getCurrentServerData() != null) {
                             sip = Minecraft.getMinecraft().getCurrentServerData();
 
                             if (!sip.serverIP.equals("")) {
-                                presence.details = (Minecraft.getMinecraft().getSession().getUsername() + "> " + sip.serverIP);
+                                presence.details = ("> " + sip.serverIP);
                                 presence.state = "> Beta test 0.1";
                             }
                         }
